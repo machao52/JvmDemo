@@ -16,6 +16,7 @@ public class HeapOOM {
 	}
 	
 	public static void main(String[] args) {
+		
 		List<OOMObject> list=new ArrayList<OOMObject>();
 		int i=0;
 		while(true){
@@ -25,5 +26,7 @@ public class HeapOOM {
 		}
 		
 	}
+	
+	
 
 }
