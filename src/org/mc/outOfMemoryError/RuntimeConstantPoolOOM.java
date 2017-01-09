@@ -1,7 +1,5 @@
 package org.mc.outOfMemoryError;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created in 2017/01/05
@@ -21,10 +19,10 @@ public class RuntimeConstantPoolOOM {
 	}*/
 	
 	public static void main(String[] args) {
-		/*String str1=new StringBuilder("计算机").append("软件").toString();
+		String str1=new StringBuilder("计算机").append("软件").toString();
 		System.out.println(str1.intern()==str1);
 		String str2=new StringBuilder().append("java").toString();
-		System.out.println(str2.intern()==str2);*/
+		System.out.println(str2.intern()==str2);
 		/*
 		new StringBuffer("计算机").append("1").toString();
 		//System.out.println(str3.intern()==str3);
